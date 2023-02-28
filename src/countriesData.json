@@ -1,0 +1,20 @@
+[
+    {
+        "countryName": "Bulgaria",
+        "city": "Bansko",
+        "sportType": "Snowboarding",
+        "image": "banskoCover.jpg"
+    },
+    {
+        "countryName": "Bulgaria",
+        "city": "Sofia",
+        "sportType": "Skiing",
+        "image": "banskoCover.jpg"
+    },
+    {
+        "countryName": "Bulgaria",
+        "city": "Varna",
+        "sportType": "Kite Surfing",
+        "image": "banskoCover.jpg"
+    }
+]
