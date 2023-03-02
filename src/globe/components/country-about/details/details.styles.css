@@ -1,0 +1,25 @@
+.card__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  justify-items: center
+}
+
+.img__gray {
+  filter: grayscale(100%);
+  width:"50";
+  border-radius:"50%";
+
+}
+
+.img__valid {
+  width:"50";
+  border-radius:"50%";
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}

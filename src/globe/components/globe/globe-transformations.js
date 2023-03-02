@@ -15,7 +15,6 @@ export const rotateProjectionBy = ({
 }) => {
   // Store the current rotation and scale:
   const currentRotate = projection.rotate();
-  console.log("current", currentRotate);
 
   // Update path generator with new projection
   path.projection(projection);

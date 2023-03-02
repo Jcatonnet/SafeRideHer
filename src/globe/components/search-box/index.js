@@ -60,7 +60,7 @@ export const SearchBox = ({ show, onOptionSelect, ...other }) => {
         root: classes.autocompleteRoot,
         paper: classes.autocompletePaper,
       }}
-      styles="background-color: #ffe9de"
+      styles="background-color: #4E6E81"
       {...other}
       renderInput={(params) => (
         <Paper

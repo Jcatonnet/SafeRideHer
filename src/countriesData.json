@@ -1,20 +1,43 @@
 [
     {
         "countryName": "Bulgaria",
-        "city": "Bansko",
-        "sportType": "Snowboarding",
+        "cityName": "Bansko",
+        "sportType": [
+            "Snowboarding"
+        ],
         "image": "banskoCover.jpg"
     },
     {
         "countryName": "Bulgaria",
-        "city": "Sofia",
-        "sportType": "Skiing",
+        "cityName": "Sofia",
+        "sportType": [
+            "Skiing"
+        ],
         "image": "banskoCover.jpg"
     },
     {
         "countryName": "Bulgaria",
-        "city": "Varna",
-        "sportType": "Kite Surfing",
+        "cityName": "Varna",
+        "sportType": [
+            "Kite surfing"
+        ],
+        "image": "banskoCover.jpg"
+    },
+    {
+        "countryName": "France",
+        "cityName": "Paris",
+        "sportType": [
+            "Climbing",
+            "Skateboarding"
+        ],
+        "image": "banskoCover.jpg"
+    },
+    {
+        "countryName": "France",
+        "cityName": "Biarritz",
+        "sportType": [
+            "Surfing"
+        ],
         "image": "banskoCover.jpg"
     }
 ]

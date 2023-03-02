@@ -4,14 +4,15 @@ import { ThemeProvider, CssBaseline } from "@material-ui/core";
 import { Layout } from "../layout";
 import { Navbar } from "../Navbar";
 import { Globe } from "../globe";
-import { CountryAbout } from "../country-about";
+import { CountryInfo } from "../country-about/CountryInfo";
 import { SearchBox } from "../search-box";
 import { useGlobeSize } from "../layout/hooks";
 import { useTheme } from "./useTheme";
 import { getCountryById, getRandomCountry } from "../../utils";
 import KEY_ from "../../utils/keyCodes";
 import { Shortcuts } from "../Shortcuts";
-import lostXtrem from "../../../assets/lostXtrem.png";
+// import lostXtrem from "../../../assets/lostXtrem.png";
+import { NoReferences } from "../NoReferences/NoReferences";
 
 export const GlobePage = () => {
   const [theme, toggleTheme] = useTheme();
@@ -52,6 +53,8 @@ export const GlobePage = () => {
 
   const [selectedCountry, setSelectedCountry] = useState("");
   const [rotation, setRotation] = useState(initialState.rotation);
+
+  console.log(selectedCountry);
 
   /**
    * The globe is watching rotation property and updates its rotation when it changes.
@@ -146,22 +149,10 @@ export const GlobePage = () => {
         rightColumn={
           selectedCountry ? (
             <>
-              <h1>{selectedCountry.name}</h1>
-              <CountryAbout selectedCountry={selectedCountry} />
+              <CountryInfo selectedCountry={selectedCountry} />
             </>
           ) : (
-            <>
-              <img
-                src={lostXtrem}
-                width="400"
-                border-radius="50%"
-                alt="Logo"
-                style={{ borderRadius: "50%", marginLeft: "200px" }}
-              />
-              <h1>
-                Oops ! Look for another country to find your best adventure
-              </h1>
-            </>
+            <NoReferences />
           )
         }
       />

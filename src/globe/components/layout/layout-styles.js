@@ -44,7 +44,7 @@ export const useStyles = makeStyles(
     },
     rightColumn: {
       height: "100%",
-      padding: spacing(8),
+      padding: spacing(5),
       paddingLeft: spacing(4),
       overflowY: "scroll",
       overflowX: "hidden",

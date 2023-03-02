@@ -1,22 +1,15 @@
+import { CityType } from "../../utils/types";
 import "./CityCard.styles.css";
 
-export type countryInfoType = {
-  countryName: string;
-  city: string;
-  sportType: string;
-  image: string;
-};
-
 type Props = {
-  item: countryInfoType;
+  city: CityType;
 };
 
-export const CityCard: React.FC<Props> = ({ item }) => {
-  console.log(item.image);
+export const CityCard: React.FC<Props> = ({ city }) => {
   return (
     <>
       <div className="card__general">
-        <h4 className="card__title">{item.city}</h4>
+        <h4 className="card__title">{city.cityName}</h4>
       </div>
     </>
   );
