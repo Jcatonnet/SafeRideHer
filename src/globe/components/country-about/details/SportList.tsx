@@ -1,8 +1,12 @@
 import { Box, Tooltip } from "@material-ui/core";
 import { Stack } from "@mui/material";
-import { HorizontalLineGray } from "../../../../assets/Small Components/HorizontalLineGray";
-import { HorizontalLineGreen } from "../../../../assets/Small Components/HorizontalLineGreen";
-import { CountryCitiesType, SportsTypes } from "../../../utils/types";
+import { HorizontalLineGray } from "../../../../components/Small Components/HorizontalLineGray";
+import { HorizontalLineGreen } from "../../../../components/Small Components/HorizontalLineGreen";
+import {
+  CountryCitiesType,
+  SportsEnum,
+  SportsTypes,
+} from "../../../utils/types";
 import "./details.styles.css";
 
 type Props = {
@@ -10,12 +14,12 @@ type Props = {
 };
 
 const listedSports: SportsTypes[] = [
-  "Snowboarding",
-  "Skiing",
-  "Kite surfing",
-  "Surfing",
-  "Skateboarding",
-  "Climbing",
+  SportsEnum.SPORT_CLIMBING,
+  SportsEnum.SPORT_KITE_SURFING,
+  SportsEnum.SPORT_SKIING,
+  SportsEnum.SPORT_SNOWBOARDING,
+  SportsEnum.SPORT_SURFING,
+  SportsEnum.SPORT_SKATEBOARDING,
 ];
 
 export const SportTypesIconMapping: Record<string, string> = {
@@ -30,7 +34,7 @@ export const SportTypesIconMapping: Record<string, string> = {
 export const SportsList: React.FC<Props> = ({ countryCities }) => {
   let sportsinCountry: SportsTypes[] = [];
   countryCities.map((city) => {
-    city.sportType.map((sport: SportsTypes) => sportsinCountry.push(sport));
+    city.sportTypes.map((sport: SportsTypes) => sportsinCountry.push(sport));
     return sportsinCountry;
   });
   const sportIcon = listedSports.map((sport: SportsTypes) => {

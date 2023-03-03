@@ -5,12 +5,11 @@
     height: 150px;
     width: 150px;
     position: relative;
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
-    background-image: url('../../../assets/banskoCover.jpg');
+    /* background-image: url('../../../assets/banskoCover.jpg'); */
     background-size: cover;
-
   }
 
 .card__title {

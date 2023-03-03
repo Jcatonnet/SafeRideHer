@@ -2,42 +2,132 @@
     {
         "countryName": "Bulgaria",
         "cityName": "Bansko",
-        "sportType": [
+        "sportTypes": [
             "Snowboarding"
         ],
-        "image": "banskoCover.jpg"
+        "image": "/images/banskoCover.jpg",
+        "sportsClub": [
+            {
+                "clubName": "Snowboarding Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            },
+            {
+                "clubName": "Snowboarding Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            }
+        ]
     },
     {
         "countryName": "Bulgaria",
         "cityName": "Sofia",
-        "sportType": [
+        "sportTypes": [
             "Skiing"
         ],
-        "image": "banskoCover.jpg"
+        "sportsClub": [
+            {
+                "clubName": "Skkiing Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            },
+            {
+                "clubName": "Skkiing Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            }
+        ],
+        "image": "/images/lostXtrem.png"
     },
     {
         "countryName": "Bulgaria",
         "cityName": "Varna",
-        "sportType": [
+        "sportTypes": [
             "Kite surfing"
         ],
-        "image": "banskoCover.jpg"
+        "sportsClub": [
+            {
+                "clubName": "Snowboarding Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            },
+            {
+                "clubName": "Snowboarding Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            }
+        ],
+        "image": "/images/lostXtrem.png"
     },
     {
         "countryName": "France",
         "cityName": "Paris",
-        "sportType": [
+        "sportTypes": [
             "Climbing",
             "Skateboarding"
         ],
-        "image": "banskoCover.jpg"
+        "sportsClub": [
+            {
+                "clubName": "Snowboarding Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            },
+            {
+                "clubName": "Snowboarding Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            }
+        ],
+        "image": "/images/lostXtrem.png"
     },
     {
         "countryName": "France",
         "cityName": "Biarritz",
-        "sportType": [
+        "sportTypes": [
             "Surfing"
         ],
-        "image": "banskoCover.jpg"
+        "sportsClub": [
+            {
+                "clubName": "Snowboarding Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            },
+            {
+                "clubName": "Snowboarding Girls Bansko",
+                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
+                "phoneNumber": "010101010101",
+                "email": "bansko@gmail.com",
+                "facebook": "ulr/facebook/bansko",
+                "logo": "banskoCover.jpg"
+            }
+        ],
+        "image": "/images/lostXtrem.png"
     }
 ]

@@ -1,0 +1,28 @@
+.description__container {
+    background-color: #4E6E81;
+    height: 200px;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: 40px
+}
+
+.description__full {
+    /* margin-top: 10px; */
+}
+
+.description__title {
+    margin-top: 0;
+    max-height: 10%;
+}
+
+.description__info {
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.description__icons {
+    justify-content: center;
+    display: flex;
+}

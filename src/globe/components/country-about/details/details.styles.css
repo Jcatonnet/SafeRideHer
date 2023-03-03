@@ -5,7 +5,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  justify-items: center
+  justify-items: center;
+  margin-bottom: 30px
 }
 
 .img__gray {

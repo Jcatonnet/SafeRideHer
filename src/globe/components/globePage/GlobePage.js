@@ -54,8 +54,6 @@ export const GlobePage = () => {
   const [selectedCountry, setSelectedCountry] = useState("");
   const [rotation, setRotation] = useState(initialState.rotation);
 
-  console.log(selectedCountry);
-
   /**
    * The globe is watching rotation property and updates its rotation when it changes.
    * When rotation is set to null, the globe won't update the rotation.
