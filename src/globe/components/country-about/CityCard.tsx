@@ -26,7 +26,9 @@ export const CityCard: React.FC<Props> = ({ city, handleClick }) => {
           }}
         >
           <CardContent>
-            <Typography className="card__title">{city.cityName}</Typography>
+            <Typography variant="h4" className="card__title">
+              {city.cityName}
+            </Typography>
           </CardContent>
         </CardActionArea>
       </Card>

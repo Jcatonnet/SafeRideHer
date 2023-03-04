@@ -15,6 +15,7 @@ export type sportClub = {
   email: string;
   facebook: string;
   logo: string;
+  type: SportsTypes;
 };
 
 export type SportsTypes =

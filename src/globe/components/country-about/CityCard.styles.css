@@ -10,10 +10,12 @@
     justify-content: center;
     /* background-image: url('../../../assets/banskoCover.jpg'); */
     background-size: cover;
-  }
+    }
 
 .card__title {
     color:white;
-    font-weight: bold
+    font-weight: 900;
+    font-size: xx-large;
+
 
 }

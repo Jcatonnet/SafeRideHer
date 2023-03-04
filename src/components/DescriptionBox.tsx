@@ -1,10 +1,8 @@
 import { Box, Grid } from "@material-ui/core";
 import { Stack } from "@mui/material";
-import { CityType, sportClub } from "../globe/utils/types";
 import "./DescriptionBox.style.css";
 
 export const DescriptionBox = ({ sportClub }: any) => {
-  console.log("sportClub", sportClub);
   return (
     <Box className="description__container">
       <Grid className="description__full" container spacing={3}>

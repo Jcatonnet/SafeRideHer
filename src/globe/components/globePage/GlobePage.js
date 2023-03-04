@@ -110,7 +110,7 @@ export const GlobePage = () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [setRandomCountry, toggleShortcutsVisibility, toggleWidgetsVisibility]);
-
+  console.log("customCountry", selectedCountry);
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
