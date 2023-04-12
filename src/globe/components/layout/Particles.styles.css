@@ -1,0 +1,5 @@
+.background__particles {
+    position: fixed;
+    width: 100%;
+    background-color: linear-gradient(120deg, rgba(#e0c3fc,0.75) 0%, rgba(#8ec5fc,0.75) 100%);
+}

@@ -22,14 +22,14 @@ export const useStyles = makeStyles(
       transition: create("fill", duration.standard),
       strokeWidth: 0.25,
       "&:hover": {
-        fill: "#e97777",
+        fill: "#c036d8",
       },
     },
     selected: {
-      fill: "#e97777",
+      fill: "#c036d8",
     },
     circle: {
-      fill: "#4E6E81",
+      fill: "#8ca1d8",
       transition: create("fill", duration.standard),
     },
   })

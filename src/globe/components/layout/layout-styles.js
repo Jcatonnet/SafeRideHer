@@ -1,6 +1,5 @@
 import { makeStyles } from "@material-ui/core";
-import WomenHandHolding from "../../../assets/WomenHandHolding.jpg";
-// import WomenXtrem from "../../../assets/CoverPictureXtremeWoman.png";
+// import backgroundJeans from "../../../assets/BackgroundJeans.jpg";
 
 export const useStyles = makeStyles(
   ({ breakpoints, spacing, transitions: { create, duration } }) => ({
@@ -10,6 +9,8 @@ export const useStyles = makeStyles(
       display: "grid",
       gridTemplateRows: "auto 1fr",
       gridTemplateColumns: "1fr 1fr",
+      // backgroundColor: "none",
+      // backgroundImage: `url(${backgroundJeans})`,
       /* Overflow is required due to sliding transitions of widgets */
       overflowX: "hidden",
       [breakpoints.down("sm")]: {
@@ -23,10 +24,11 @@ export const useStyles = makeStyles(
     },
     leftColumn: {
       position: "relative",
+      zIndex: "10",
       padding: spacing(2),
       paddingRight: spacing(1),
-      backgroundImage: `url(${WomenHandHolding})`,
-      backgroundSize: "cover",
+      // backgroundImage: `url(${WomenHandHolding})`,
+      // backgroundSize: "cover",
 
       display: "flex",
       flexDirection: "column",
@@ -44,9 +46,11 @@ export const useStyles = makeStyles(
     },
     rightColumn: {
       height: "100%",
-      padding: spacing(5),
+      padding: spacing(8),
       paddingLeft: spacing(4),
-      overflowY: "scroll",
+      zIndex: "1",
+      color: "white",
+      // overflowY: "scroll",
       overflowX: "hidden",
 
       [breakpoints.down("sm")]: {

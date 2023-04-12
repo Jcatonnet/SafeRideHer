@@ -1,154 +1,142 @@
 [
     {
-        "countryName": "Bulgaria",
-        "cityName": "Bansko",
-        "sportTypes": [
-            "Snowboarding",
-            "Skiing"
-        ],
-        "image": "/images/banskoCover.jpg",
-        "sportsClub": [
-            {
-                "clubName": "Snowboarding Girls Bansko",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
-                "type": "Snowboarding"
-            },
-            {
-                "clubName": "Snowboarding Girls Bansko",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
-                "type": "Snowboarding"
-            }
-        ]
-    },
-    {
-        "countryName": "Bulgaria",
-        "cityName": "Sofia",
-        "sportTypes": [
-            "Skiing",
-            "Snowboarding"
-        ],
-        "sportsClub": [
-            {
-                "clubName": "Skkiing Girls Bansko",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
-                "type": "Skiing"
-            },
-            {
-                "clubName": "Skkiing Girls Bansko",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
-                "type": "Snowboarding"
-            }
-        ],
-        "image": "/images/Sofia.jpeg"
-    },
-    {
-        "countryName": "Bulgaria",
-        "cityName": "Varna",
-        "sportTypes": [
-            "Kite surfing"
-        ],
-        "sportsClub": [
-            {
-                "clubName": "Snowboarding Girls Bansko",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
-                "type": "Kite surfing"
-            },
-            {
-                "clubName": "Snowboarding Girls Bansko",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
-                "type": "Kite surfing"
-            }
-        ],
-        "image": "/images/lostXtrem.png"
-    },
-    {
-        "countryName": "France",
-        "cityName": "Paris",
-        "sportTypes": [
-            "Climbing",
-            "Skateboarding"
-        ],
-        "sportsClub": [
-            {
-                "clubName": "Skateboarding here",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
-                "type": "Skateboarding"
-            },
-            {
-                "clubName": "Climbing Girls paris",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
-                "type": "Climbing"
-            },
-            {
-                "clubName": "Sakteboarding Girls",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
-                "type": "Skateboarding"
-            }
-        ],
-        "image": "/images/paris.jpeg"
-    },
-    {
         "countryName": "France",
         "cityName": "Biarritz",
         "sportTypes": [
             "Surfing"
         ],
+        "image": "/images/banskoCover.jpg",
         "sportsClub": [
             {
-                "clubName": "Snowboarding Girls Bansko",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
+                "clubName": "Surf Sistas",
+                "description": "Surf Sistas is a women-only surf school that offers surf lessons, surf camps, and surf trips in Biarritz.",
+                "phoneNumber": "+33 6 01 02 03 04",
+                "email": "info@surfsistas.com",
+                "facebook": "https://www.facebook.com/surfsistas",
+                "logo": "https://www.surfsistas.com/wp-content/uploads/2021/01/logo-light.png",
                 "type": "Surfing"
             },
             {
-                "clubName": "Snowboarding Girls Bansko",
-                "description": "A community of snowboarding girls in Bansko to find riding buddies, ask questions about equipment, share tips, organise trips to other resorts, etc. Ski and other adventurous girls are welcome too! In summer – we do other adventures like mountain biking, downhill or cross country, rafting, etc. Let's make it fun",
-                "phoneNumber": "010101010101",
-                "email": "bansko@gmail.com",
-                "facebook": "ulr/facebook/bansko",
-                "logo": "banskoCover.jpg",
+                "clubName": "Wavesisters",
+                "description": "Wavesisters is a surf school and community for women that organizes surf lessons, surf camps, and surf trips in Biarritz.",
+                "phoneNumber": "+33 6 05 06 07 08",
+                "email": "contact@wavesisters.com",
+                "facebook": "https://www.facebook.com/wavesisters",
+                "logo": "https://www.wavesisters.com/wp-content/uploads/2022/02/logo.png",
                 "type": "Surfing"
             }
+        ]
+    },
+    {
+        "countryName": "France",
+        "cityName": "Hossegor",
+        "sportTypes": [
+            "Surfing"
         ],
-        "image": "/images/Biarritz.jpeg"
+        "image": "/images/banskoCover.jpg",
+        "sportsClub": [
+            {
+                "clubName": "Surf Sistas Hossegor",
+                "description": "Surf Sistas Hossegor is a women-only surf school that offers surf lessons, surf camps, and surf trips in Hossegor.",
+                "phoneNumber": "+33 6 09 10 11 12",
+                "email": "info@surfsistashossegor.com",
+                "facebook": "https://www.facebook.com/surfsistashossegor",
+                "logo": "https://www.surfsistashossegor.com/wp-content/uploads/2021/09/logo.png",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Surf Sistas France",
+                "description": "Surf Sistas France is a women-only surf school that offers surf lessons, surf camps, and surf trips in Hossegor and Biarritz.",
+                "phoneNumber": "+33 6 13 14 15 16",
+                "email": "info@surfsistasfrance.com",
+                "facebook": "https://www.facebook.com/surfsistasfrance",
+                "logo": "https://www.surfsistasfrance.com/wp-content/uploads/2022/03/logo.png",
+                "type": "Surfing"
+            }
+        ]
+    },
+    {
+        "countryName": "France",
+        "cityName": "Chamonix",
+        "sportTypes": [
+            "Skiing"
+        ],
+        "image": "/images/banskoCover.jpg",
+        "sportsClub": [
+            {
+                "clubName": "Chamonix Ski Girls",
+                "description": "Chamonix Ski Girls is a women-only ski school that offers ski lessons and ski camps for women of all levels in Chamonix.",
+                "phoneNumber": "+33 6 17 18 19 20",
+                "email": "info@chamonixskigirls.com",
+                "facebook": "https://www.facebook.com/chamonixskigirls",
+                "logo": "https://www.chamonixskigirls.com/wp-content/uploads/2021/12/logo.png",
+                "type": "Skiing"
+            },
+            {
+                "clubName": "Ski Sisters",
+                "description": "Ski Sisters is a women-only ski school that offers ski lessons and ski trips for women of all levels in Chamonix and other ski resorts in France.",
+                "phoneNumber": "+33 6 21 22 23 24",
+                "email": "contact@skisisters.com",
+                "facebook": "https://www.facebook.com/skisisters",
+                "logo": "https://www.skisisters.com/wp-content/uploads/2022/01/logo.png",
+                "type": "Skiing"
+            }
+        ]
+    },
+    {
+        "countryName": "France",
+        "cityName": "Tignes",
+        "sportTypes": [
+            "Skiing"
+        ],
+        "image": "/images/banskoCover.jpg",
+        "sportsClub": [
+            {
+                "clubName": "Ski Goddesses",
+                "description": "Ski Goddesses is a women-only ski school that offers ski lessons and ski camps for women of all levels in Tignes.",
+                "phoneNumber": "+33 6 25 26 27 28",
+                "email": "info@skigoddesses.com",
+                "facebook": "https://www.facebook.com/skigoddesses",
+                "logo": "https://www.skigoddesses.com/wp-content/uploads/2022/03/logo.png",
+                "type": "Skiing"
+            },
+            {
+                "clubName": "Sisters on Skis",
+                "description": "Sisters on Skis is a women-only ski club that organizes ski trips and social events for women in Tignes and other ski resorts in France.",
+                "phoneNumber": "+33 6 29 30 31 32",
+                "email": "contact@sistersonskis.com",
+                "facebook": "https://www.facebook.com/sistersonskis",
+                "logo": "https://www.sistersonskis.com/wp-content/uploads/2022/01/logo.png",
+                "type": "Skiing"
+            }
+        ]
+    },
+    {
+        "countryName": "France",
+        "cityName": "Val d'Isère",
+        "sportTypes": [
+            "Skiing"
+        ],
+        "image": "/images/banskoCover.jpg",
+        "sportsClub": [
+            {
+                "clubName": "Women's Ski Academy",
+                "description": "Women's Ski Academy is a women-only ski school that offers ski lessons and ski clinics for women of all levels in Val d'Isère.",
+                "phoneNumber": "+33 6 33 34 35 36",
+                "email": "info@womensskiacademy.com",
+                "facebook": "https://www.facebook.com/womensskiacademy",
+                "logo": "https://www.womensskiacademy.com/wp-content/uploads/2021/11/logo.png",
+                "type": "Skiing"
+            },
+            {
+                "clubName": "Val d'Isère Women's Ski Club",
+                "description": "Val d'Isère Women's Ski Club is a women-only ski club that organizes ski trips and social events for women in Val d'Isère and other ski resorts in France.",
+                "phoneNumber": "+33 6 37 38 39 40",
+                "email": "contact@valdiserewomensskiclub.com",
+                "facebook": "https://www.facebook.com/valdiserewomensskiclub",
+                "logo": "https://www.valdiserewomensskiclub.com/wp-content/uploads/2022/01/logo.png",
+                "type": "Skiing"
+            }
+        ]
     }
 ]

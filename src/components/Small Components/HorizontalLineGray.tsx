@@ -7,6 +7,7 @@ export const HorizontalLineGray = () => {
           background: "gray",
           height: "1rem",
           borderRadius: "10px",
+          zIndex: "10",
         }}
       />
     </div>

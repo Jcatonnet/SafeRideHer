@@ -11,12 +11,7 @@ import {
   throttledZoomProjectionBy,
   rotateProjectionTo,
 } from "./globe-transformations";
-import {
-  WidgetNavigation,
-  WidgetRandomCountry,
-  Widgets,
-  WidgetZoom,
-} from "../widgets";
+import { Widgets } from "../widgets";
 import KEY_, { PLUS_MINUS_KEYS, ARROW_KEYS } from "../../utils/keyCodes";
 import { getCountryById } from "../../utils";
 
@@ -314,14 +309,7 @@ export const Globe = ({
           ))}
         </g>
       </svg>
-      <Widgets show={showWidgets}>
-        <WidgetRandomCountry onClick={onRandomCountryClick} />
-        <WidgetZoom onClick={handleZoomClick} />
-        <WidgetNavigation
-          onRotateClick={handleRotateClick}
-          onLocationClick={handleLocationClick}
-        />
-      </Widgets>
+      <Widgets show={showWidgets}></Widgets>
     </div>
   );
 };

@@ -60,8 +60,6 @@ export const CountryInfo = ({ selectedCountry: { name } }: any) => {
     return 0;
   };
 
-  console.log("sorting", sportsClubToDisplay?.sort(sortSportBy));
-
   const sportsClub = citySelected
     ? sportsClubToDisplay!.sort(sortSportBy).map((sportClub) => {
         return <DescriptionBox sportClub={sportClub} />;
@@ -88,7 +86,7 @@ export const CountryInfo = ({ selectedCountry: { name } }: any) => {
               sportsAvailable={sportsInCity!}
               handleClick={(event) => handleFilter(event)}
             />
-            <Button variant="contained" onClick={handleBackClick}>
+            <Button variant="text" color="inherit" onClick={handleBackClick}>
               Back to cities list
             </Button>
             <Fade bottom cascade>

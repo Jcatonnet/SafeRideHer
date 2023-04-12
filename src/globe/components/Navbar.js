@@ -65,7 +65,7 @@ const NavbarButton = ({ label, pushToRight, ...other }) => {
   );
 };
 
-export const Navbar = ({ title, onThemeIconClick, onShortcutsIconClick }) => {
+export const Navbar = ({ title, onThemeIconClick }) => {
   const classes = useStyles();
   const {
     palette: { type },
@@ -98,13 +98,6 @@ export const Navbar = ({ title, onThemeIconClick, onShortcutsIconClick }) => {
         <Typography className={classes.title} variant={titleVariant}>
           {title}
         </Typography>
-        <NavbarButton
-          label="Show/hide shortcuts"
-          onClick={onShortcutsIconClick}
-          pushToRight
-        >
-          <KeyboardIcon />
-        </NavbarButton>
         <NavbarButton
           label="Toggle light/dark theme"
           onClick={onThemeIconClick}

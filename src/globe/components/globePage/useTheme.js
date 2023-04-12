@@ -14,7 +14,7 @@ export const useTheme = () => {
       type: darkMode ? "dark" : "light",
       primary: {
         /* Shade of blue from Material UI website */
-        main: "#4E6E81",
+        main: "#8ca1d8",
       },
     },
     breakpoints: {

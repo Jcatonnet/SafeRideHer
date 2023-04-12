@@ -49,6 +49,7 @@ export const SearchBox = ({ show, onOptionSelect, ...other }) => {
 
   const autocomplete = (
     <Autocomplete
+      style={{ marginTop: "30px" }}
       size="small"
       value={value}
       inputValue={inputValue}
@@ -60,7 +61,7 @@ export const SearchBox = ({ show, onOptionSelect, ...other }) => {
         root: classes.autocompleteRoot,
         paper: classes.autocompletePaper,
       }}
-      styles="background-color: #4E6E81"
+      // styles="background-color: #c036d8, margin-top: 30px"
       {...other}
       renderInput={(params) => (
         <Paper

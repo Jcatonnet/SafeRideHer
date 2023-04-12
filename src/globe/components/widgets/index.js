@@ -1,32 +1,27 @@
-import React, { forwardRef } from 'react';
-import { makeStyles, Slide } from '@material-ui/core';
-
-import { WidgetNavigation } from './WidgetNavigation';
-import { WidgetZoom } from './WidgetZoom';
-import { WidgetRandomCountry } from './WidgetRandomCountry';
-export { WidgetNavigation, WidgetZoom, WidgetRandomCountry };
+import React, { forwardRef } from "react";
+import { makeStyles, Slide } from "@material-ui/core";
 
 const useStyles = makeStyles(({ spacing, breakpoints }) => ({
   widgets: {
     zIndex: 100,
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    '& > *:not(:last-child)': {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    "& > *:not(:last-child)": {
       marginBottom: spacing(1),
     },
     /* Position in the right bottom corner of relative parent */
-    position: 'absolute',
+    position: "absolute",
     bottom: spacing(2),
     right: spacing(2),
-    [breakpoints.down('md')]: {
+    [breakpoints.down("md")]: {
       bottom: 0,
       right: 0,
     },
   },
   grid: {
-    display: 'grid',
+    display: "grid",
     gridTemplateColumns: `repeat(3, auto)`,
     gridTemplateRows: `repeat(3, auto)`,
     gridTemplateAreas: `

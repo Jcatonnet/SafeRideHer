@@ -1,21 +1,20 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useState } from "react";
 import { ThemeProvider, CssBaseline } from "@material-ui/core";
 
 import { Layout } from "../layout";
-import { Navbar } from "../Navbar";
 import { Globe } from "../globe";
 import { CountryInfo } from "../country-about/CountryInfo";
 import { SearchBox } from "../search-box";
 import { useGlobeSize } from "../layout/hooks";
 import { useTheme } from "./useTheme";
 import { getCountryById, getRandomCountry } from "../../utils";
-import KEY_ from "../../utils/keyCodes";
-import { Shortcuts } from "../Shortcuts";
-// import lostXtrem from "../../../assets/lostXtrem.png";
-import { NoReferences } from "../NoReferences/NoReferences";
+import { LandingPage } from "../LandingPage/LandingPage";
+import { SubmissionModal } from "../../../components/Small Components/Modal";
 
 export const GlobePage = () => {
   const [theme, toggleTheme] = useTheme();
+  const [modalOpen, setModalOpen] = useState(false);
+
   const handleToggleTheme = () => {
     preventRotation();
     toggleTheme();
@@ -30,16 +29,6 @@ export const GlobePage = () => {
   const toggleWidgetsVisibility = useCallback(() => {
     preventRotation();
     setShowWidgets((prev) => !prev);
-  }, []);
-
-  /**
-   * Show/hide shortcuts
-   */
-  const [shortcuts, setShowShortcuts] = useState(false);
-  const hideShortcuts = () => setShowShortcuts(false);
-  const toggleShortcutsVisibility = useCallback(() => {
-    preventRotation();
-    setShowShortcuts((prev) => !prev);
   }, []);
 
   /**
@@ -91,39 +80,18 @@ export const GlobePage = () => {
     setSelectedCountry(getCountryById(countryId));
     setRotation(rotation);
   };
-
-  /**
-   * Add key down event listener to the window object
-   *
-   */
-  useEffect(() => {
-    const handleKeyDown = ({ which, keyCode, ctrlKey }) => {
-      const pressedKey = which || keyCode;
-
-      if (pressedKey === KEY_.R) setRandomCountry();
-      if (pressedKey === KEY_.W) toggleWidgetsVisibility();
-      if (ctrlKey && pressedKey === KEY_.SLASH) toggleShortcutsVisibility();
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [setRandomCountry, toggleShortcutsVisibility, toggleWidgetsVisibility]);
-  console.log("customCountry", selectedCountry);
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Layout
         isSearchboxVisible={showWidgets}
-        navbar={
-          <Navbar
-            title="Find your next safe Xtrem adventure !"
-            onThemeIconClick={handleToggleTheme}
-            onWidgetsIconClick={toggleWidgetsVisibility}
-            onShortcutsIconClick={toggleShortcutsVisibility}
-          />
-        }
+        // navbar={
+        //   <Navbar
+        //   title="Find your next safe Xtrem adventure !"
+        //   onThemeIconClick={handleToggleTheme}
+        // />
+
+        // }
         leftColumn={
           <>
             <SearchBox
@@ -140,21 +108,22 @@ export const GlobePage = () => {
               onCountryClick={handleCountryClick}
               onLocationClick={handleLocationClick}
               onRandomCountryClick={handleRandomCountryClick}
-              showWidgets={showWidgets}
             />
           </>
         }
         rightColumn={
-          selectedCountry ? (
-            <>
-              <CountryInfo selectedCountry={selectedCountry} />
-            </>
-          ) : (
-            <NoReferences />
-          )
+          <>
+            <SubmissionModal open={modalOpen} />
+            {selectedCountry ? (
+              <>
+                <CountryInfo selectedCountry={selectedCountry} />
+              </>
+            ) : (
+              <LandingPage />
+            )}
+          </>
         }
       />
-      <Shortcuts show={shortcuts} onClose={hideShortcuts} />
     </ThemeProvider>
   );
 };

@@ -1,0 +1,15 @@
+.landing__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.landing__tagPhrase {
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.landing__title {
+    z-index: 10;
+}
