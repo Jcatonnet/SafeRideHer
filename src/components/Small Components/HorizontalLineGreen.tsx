@@ -5,7 +5,7 @@ export const HorizontalLineGreen = () => {
       <div
         style={{
           background: "lime",
-          height: "1rem",
+          height: "5px",
           borderRadius: "10px",
           // animation: "blinker 1s linear infinite",
         }}

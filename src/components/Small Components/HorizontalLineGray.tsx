@@ -5,7 +5,7 @@ export const HorizontalLineGray = () => {
       <div
         style={{
           background: "gray",
-          height: "1rem",
+          height: "5px",
           borderRadius: "10px",
           zIndex: "10",
         }}

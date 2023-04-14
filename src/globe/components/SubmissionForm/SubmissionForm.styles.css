@@ -18,3 +18,7 @@
     width: 100%;
     justify-content: space-between;
 }
+
+.button__submit {
+    background-color: "#c036d8";
+}

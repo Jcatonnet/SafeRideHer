@@ -3,16 +3,12 @@ import { Stack } from "@mui/material";
 import Bounce from "react-reveal/Bounce";
 import { HorizontalLineGray } from "../../../../components/Small Components/HorizontalLineGray";
 import { HorizontalLineGreen } from "../../../../components/Small Components/HorizontalLineGreen";
-import {
-  CountryCitiesType,
-  SportsEnum,
-  SportsTypes,
-} from "../../../utils/types";
-import { NoReferences } from "../../NoReferences/NoReferences";
+import { SportsEnum, SportsTypes } from "../../../utils/types";
 import "./details.styles.css";
 
 type Props = {
   sportsAvailable: SportsTypes[];
+  infoTitle?: string;
   handleClick?: (event: any) => void;
 };
 
@@ -26,16 +22,17 @@ const listedSports: SportsTypes[] = [
 ];
 
 export const SportTypesIconMapping: Record<string, string> = {
-  Snowboarding: "/images/snowboard.png",
-  Skiing: "/images/skier.png",
-  "Kite surfing": "/images/kitesurf.png",
-  Surfing: "/images/surfer.png",
-  Skateboarding: "/images/skater.png",
-  Climbing: "/images/climbing-wall.png",
+  Snowboarding: "/images/Snowboarding.png",
+  Skiing: "/images/Skiing.png",
+  Kitesurfing: "/images/Kitesurfing.png",
+  Surfing: "/images/Surfing.png",
+  Skateboarding: "/images/Skateboarding.png",
+  Climbing: "/images/Climbing.png",
 };
 
 export const SportsList: React.FC<Props> = ({
   sportsAvailable,
+  infoTitle,
   handleClick,
 }) => {
   const sportIcon = listedSports.map((sport: SportsTypes) => {
@@ -83,7 +80,7 @@ export const SportsList: React.FC<Props> = ({
 
   return (
     <Stack>
-      <h2>Available extreme sisterhood in this country:</h2>
+      <h2> {infoTitle}</h2>
       <Box className="card__grid">{sportIcon}</Box>
     </Stack>
   );

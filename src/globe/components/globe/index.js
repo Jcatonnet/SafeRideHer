@@ -40,7 +40,7 @@ export const Globe = ({
 
   // Refs
   const svgRef = useRef(null);
-
+  // rotateProjectionTo([5, 0, 0]);
   // Projection
   // useMemo is important here because we want to create a projection only once
   const projection = useMemo(
@@ -52,6 +52,8 @@ export const Globe = ({
         .translate([width / 2, height / 2]),
     [width, height, initialRotation, initialScale]
   );
+
+  projection.rotate([5, 0, 0]);
   const path = geoPath().projection(projection);
 
   // Get GeoJson data

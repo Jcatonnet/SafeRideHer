@@ -22,6 +22,11 @@ const style = {
   boxShadow: 24,
   p: 4,
   overflowY: "auto",
+
+  "@media (max-width: 767px)": {
+    width: "90%",
+    height: "90%",
+  },
 };
 
 const alert__box = {
@@ -38,7 +43,6 @@ export const SubmissionModal = () => {
   const [erroAlertOpen, setErrorAlertOpen] = useState(false);
 
   const handleSubmit = (data: any) => {
-    console.log("data", data);
     send("service_dovxsdo", "template_6pr1rw4", data, "KJrYV_D7TUeK9DdQH")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
@@ -104,16 +108,12 @@ export const SubmissionModal = () => {
             <Box sx={style}>
               <Typography
                 id="transition-modal-title"
-                variant="h6"
-                component="h2"
+                variant="h5"
+                color="secondary"
               >
                 Please fill in the club info !
               </Typography>
-              <Typography
-                id="transition-modal-title"
-                variant="body2"
-                component="h2"
-              >
+              <Typography id="transition-modal-title" variant="body2">
                 The provided info will be reviewed by our team and if it meets
                 Feminlist standards, the club will be referenced on the platform
               </Typography>

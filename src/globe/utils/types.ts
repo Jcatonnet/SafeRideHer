@@ -29,7 +29,7 @@ export type SportsTypes =
 export enum SportsEnum {
   SPORT_SNOWBOARDING = "Snowboarding",
   SPORT_SKIING = "Skiing",
-  SPORT_KITE_SURFING = "Kite surfing",
+  SPORT_KITE_SURFING = "Kitesurfing",
   SPORT_SKATEBOARDING = "Skateboarding",
   SPORT_CLIMBING = "Climbing",
   SPORT_SURFING = "Surfing",

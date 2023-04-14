@@ -17,9 +17,9 @@ const styles = {
 const useStyles = makeStyles(({ breakpoints }) => ({
   infoBox: {
     ...styles.horizontal,
-    [breakpoints.down("md")]: styles.vertical,
+    // [breakpoints.down("md")]: styles.vertical,
     [breakpoints.down("sm")]: styles.horizontal,
-    [breakpoints.down("xs")]: styles.vertical,
+    // [breakpoints.down("xs")]: styles.vertical,
   },
 }));
 

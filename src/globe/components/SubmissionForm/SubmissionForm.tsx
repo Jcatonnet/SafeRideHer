@@ -97,7 +97,13 @@ export const SubmissionForm = ({ onSubmit, onCancel }: any) => {
         />
         <Box className="submissionForm__CTA">
           <Button onClick={onCancel}>Cancel</Button>
-          <Button variant="contained" color="secondary" type="submit">
+          <Button
+            className="button__submit"
+            variant="contained"
+            color="secondary"
+            style={{ backgroundColor: "#9c27b0" }}
+            type="submit"
+          >
             Submit
           </Button>
         </Box>

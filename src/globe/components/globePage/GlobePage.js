@@ -15,11 +15,6 @@ export const GlobePage = () => {
   const [theme, toggleTheme] = useTheme();
   const [modalOpen, setModalOpen] = useState(false);
 
-  const handleToggleTheme = () => {
-    preventRotation();
-    toggleTheme();
-  };
-
   const [globeWidth, globeHeight] = useGlobeSize();
 
   /**
