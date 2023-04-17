@@ -49,6 +49,8 @@
     .description__text {
     
         overflow-y: auto;
+        max-width: 100%;
+        overflow-x: hidden;
         max-height: 100px;
     }
 }
