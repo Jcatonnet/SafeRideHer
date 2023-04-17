@@ -1,5 +1,4 @@
 import { Box, Grid } from "@material-ui/core";
-import { CodeSharp } from "@material-ui/icons";
 import { Stack } from "@mui/material";
 import { useState } from "react";
 import "./DescriptionBox.style.css";
@@ -92,7 +91,7 @@ export const DescriptionBox = ({ sportClub }: any) => {
               </Grid>
               <Grid item xs={2}>
                 {sportClub.instagram ? (
-                  <a href={sportClub.instagram}>
+                  <a target="_blank" href={sportClub.instagram}>
                     <img
                       src="/images/instagram.png"
                       alt="logo"

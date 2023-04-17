@@ -5,24 +5,32 @@
         "sportTypes": [
             "Surfing"
         ],
-        "image": "/images/banskoCover.jpg",
+        "image": "/images/Biarritz.jpeg",
         "sportsClub": [
             {
-                "clubName": "Surf Sistas",
-                "description": "Surf Sistas is a women-only surf school that offers surf lessons, surf camps, and surf trips in Biarritz.",
-                "phoneNumber": "+33 6 01 02 03 04",
-                "email": "info@surfsistas.com",
-                "facebook": "https://www.facebook.com/surfsistas",
-                "logo": "https://www.surfsistas.com/wp-content/uploads/2021/01/logo-light.png",
+                "clubName": "Mama's surfcamp",
+                "description": "Surf school that organizes women dedicated surf camp in Biarritz area.",
+                "phoneNumber": "+33 6 88 57 38 26",
+                "email": "info@ecole-de-surf-bidart.com",
+                "facebook": "https://www.ecole-de-surf-bidart.com/uk-guethary-mama-surf-club.html",
                 "type": "Surfing"
             },
             {
-                "clubName": "Wavesisters",
-                "description": "Wavesisters is a surf school and community for women that organizes surf lessons, surf camps, and surf trips in Biarritz.",
-                "phoneNumber": "+33 6 05 06 07 08",
-                "email": "contact@wavesisters.com",
-                "facebook": "https://www.facebook.com/wavesisters",
-                "logo": "https://www.wavesisters.com/wp-content/uploads/2022/02/logo.png",
+                "clubName": "Hegoa Surf & Yoga Camp",
+                "description": "Whether you are a yogi, surfer, adventure enthusiast, or a traveler inspired by well-being, this experience is perfect for you. The program is designed to take you out of your comfort zone and daily routine. Here, you let go and listen to your body, reconnecting with nature and the ocean. https://hegoa-experience.com/yoga-surf-22/",
+                "email": "HELLO@HEGOA-EXPERIENCE.COM",
+                "phoneNumber": "+33 6 11 65 56 71",
+                "facebook": "https://www.facebook.com/people/HEGOA-Experience/100066277010150/",
+                "instagram": "https://www.instagram.com/hegoa.experience/?hl=fr",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Salty surf club",
+                "description": "We welcomes surfer girls of all levels and offers professional instruction for those who want to learn Surf. Every summer can be eternally if you live it to the fullest, enjoying every second and doing what you love. We're here to accompany you to live your best love story with yourself,",
+                "email": "saltyclub.es@gmail.com",
+                "phoneNumber": "+34651578329",
+                "facebook": "https://www.saltysurfclub.com/surf-retreat-biarritz",
+                "instagram": "https://www.instagram.com/thesalty_club/?hl=fr",
                 "type": "Surfing"
             }
         ]
@@ -33,53 +41,81 @@
         "sportTypes": [
             "Surfing"
         ],
-        "image": "/images/banskoCover.jpg",
+        "image": "/images/hossegor.jpeg",
         "sportsClub": [
             {
-                "clubName": "Surf Sistas Hossegor",
-                "description": "Surf Sistas Hossegor is a women-only surf school that offers surf lessons, surf camps, and surf trips in Hossegor.",
-                "phoneNumber": "+33 6 09 10 11 12",
-                "email": "info@surfsistashossegor.com",
-                "facebook": "https://www.facebook.com/surfsistashossegor",
-                "logo": "https://www.surfsistashossegor.com/wp-content/uploads/2021/09/logo.png",
+                "clubName": "Bande de surfeuses",
+                "description": "Previously Elles SURF, Bande de Surfeuses is a women only association that love riding waves. More info on our website https://www.bandedesurfeuses.com/",
+                "email": "ellessurf@gmail.com",
+                "facebook": "https://www.captainwild.com/sejours/surf-camp-girls-only-roxy/",
+                "instagram": "https://www.instagram.com/bande_de_surfeuses/?hl=fr",
                 "type": "Surfing"
             },
             {
-                "clubName": "Surf Sistas France",
-                "description": "Surf Sistas France is a women-only surf school that offers surf lessons, surf camps, and surf trips in Hossegor and Biarritz.",
-                "phoneNumber": "+33 6 13 14 15 16",
-                "email": "info@surfsistasfrance.com",
-                "facebook": "https://www.facebook.com/surfsistasfrance",
-                "logo": "https://www.surfsistasfrance.com/wp-content/uploads/2022/03/logo.png",
+                "clubName": "Roxy Surf Camp x Captain Wild",
+                "description": "Would you like to have an awesome girls' weekend? The Roxy team invites you to join them in Hossegor for an epic session. The program includes surfing, of course, but not only that! You'll get to meet pro-riders and Lylia Ambert, Zoé Jaeckin & Uxue Dominguez ambassadors, do some yoga, visit a shaper and enjoy plenty of other surprises... all in amazing accommodation. https://www.captainwild.com/sejours/surf-camp-girls-only-roxy/",
+                "email": "hello@captainwild.com",
+                "phoneNumber": "+33 4 85 80 01 49",
+                "facebook": "https://www.facebook.com/captainwildteam/",
+                "instagram": "https://www.instagram.com/captainwild_official/",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Wave Sisters",
+                "description": "You want to learn to surf and be part of a group of great women? Then come to WaveSisters and feel how surfing and yoga can transform your body, mind and soul. Spend a week with us by the sea and experience how the community of women and sport can empower you. https://wavesisters.com/",
+                "email": "INFO@WAVESISTERS.COM",
+                "phoneNumber": "+33 7 80 07 89 72",
+                "facebook": "https://www.facebook.com/wavesisters/",
+                "instagram": "https://www.instagram.com/wavesisters_surfcamps/?hl=de",
                 "type": "Surfing"
             }
         ]
     },
     {
         "countryName": "France",
-        "cityName": "Chamonix",
+        "cityName": "Lacanau",
         "sportTypes": [
-            "Skiing"
+            "Surfing"
         ],
-        "image": "/images/banskoCover.jpg",
+        "image": "/images/Lacanau.jpeg",
         "sportsClub": [
             {
-                "clubName": "Chamonix Ski Girls",
-                "description": "Chamonix Ski Girls is a women-only ski school that offers ski lessons and ski camps for women of all levels in Chamonix.",
-                "phoneNumber": "+33 6 17 18 19 20",
-                "email": "info@chamonixskigirls.com",
-                "facebook": "https://www.facebook.com/chamonixskigirls",
-                "logo": "https://www.chamonixskigirls.com/wp-content/uploads/2021/12/logo.png",
+                "clubName": "Eivy Surf Camp x Captain wild",
+                "description": "You will spend 3 days with your girlfriends, in a friendly atmosphere, to surf the waves of Lacanau. Sleep in a real hostel designed by and for female surfers, just steps from the spot ! You will have supervised surfing lessons, yoga to awaken the surfer in you, and a sunset session to enjoy until the last second! That's the EIVY surf camp atmosphere that we love. Don't forget your sunglasses before checking out the program. https://www.captainwild.com/sejours/women-surf-camp/",
+                "email": "hello@captainwild.com",
+                "phoneNumber": "+33 4 85 80 01 49",
+                "facebook": "https://www.facebook.com/captainwildteam/",
+                "instagram": "https://www.instagram.com/captainwild_official/",
+                "type": "Surfing"
+            }
+        ]
+    },
+    {
+        "countryName": "France",
+        "cityName": "Les Arcs",
+        "sportTypes": [
+            "Skiing",
+            "Snowboarding"
+        ],
+        "image": "/images/lesArcs.jpeg",
+        "sportsClub": [
+            {
+                "clubName": "Soulshine Yoga and Snow adventure",
+                "description": "Soulshine Yoga is one of the largest retreats that combines yoga and winter sports to create a revitalizing and relaxing experience away from the chaos of everyday life. It is recommended for its luxurious chalet in La Rosière, which has everything you need to feel like a queen. https://soulshineretreats.com/snow-yoga-retreat-holiday-2024",
+                "phoneNumber": "",
+                "email": "hello@soulshineretreats.com",
+                "instagram": "https://www.instagram.com/soulshine_retreats/?hl=fr",
+                "facebook": "https://m.facebook.com/soulshinesoulla",
                 "type": "Skiing"
             },
             {
-                "clubName": "Ski Sisters",
-                "description": "Ski Sisters is a women-only ski school that offers ski lessons and ski trips for women of all levels in Chamonix and other ski resorts in France.",
-                "phoneNumber": "+33 6 21 22 23 24",
-                "email": "contact@skisisters.com",
-                "facebook": "https://www.facebook.com/skisisters",
-                "logo": "https://www.skisisters.com/wp-content/uploads/2022/01/logo.png",
-                "type": "Skiing"
+                "clubName": "Soulshine Yoga and Snow adventure",
+                "description": "Soulshine Yoga is one of the largest retreats that combines yoga and winter sports to create a revitalizing and relaxing experience away from the chaos of everyday life. It is recommended for its luxurious chalet in La Rosière, which has everything you need to feel like a queen. https://soulshineretreats.com/snow-yoga-retreat-holiday-2024",
+                "phoneNumber": "",
+                "email": "hello@soulshineretreats.com",
+                "instagram": "https://www.instagram.com/soulshine_retreats/?hl=fr",
+                "facebook": "https://m.facebook.com/soulshinesoulla",
+                "type": "Snowboarding"
             }
         ]
     },
@@ -87,75 +123,48 @@
         "countryName": "France",
         "cityName": "Tignes",
         "sportTypes": [
-            "Skiing"
+            "Skiing",
+            "Snowboarding"
         ],
-        "image": "/images/banskoCover.jpg",
+        "image": "/images/Tignes.jpeg",
         "sportsClub": [
             {
-                "clubName": "Ski Goddesses",
-                "description": "Ski Goddesses is a women-only ski school that offers ski lessons and ski camps for women of all levels in Tignes.",
-                "phoneNumber": "+33 6 25 26 27 28",
-                "email": "info@skigoddesses.com",
-                "facebook": "https://www.facebook.com/skigoddesses",
-                "logo": "https://www.skigoddesses.com/wp-content/uploads/2022/03/logo.png",
+                "clubName": "Women’s Progression Sessions",
+                "description": "Technical, freestyle & park coaching for female skiers and snowboarders of all levels in Tignes & Val d'Isere from ISTD qualified coaches Corinne Mayhew, India Cairns and Amy Twigge. Regular sessions throughout the winter season with the Girls Who Ride event in March. Please message us directly with any queries! Further info: https: //linktr.ee/womensprogressionsessions",
+                "phoneNumber": "https://chat.whatsapp.com/LtEpyiWhV5PHYPKPUXXjuT",
+                "instagram": "https://www.instagram.com/womensprogressionsessions/",
+                "email": "",
+                "facebook": "https://www.facebook.com/groups/womensprogressionsessions/",
                 "type": "Skiing"
             },
             {
-                "clubName": "Sisters on Skis",
-                "description": "Sisters on Skis is a women-only ski club that organizes ski trips and social events for women in Tignes and other ski resorts in France.",
-                "phoneNumber": "+33 6 29 30 31 32",
-                "email": "contact@sistersonskis.com",
-                "facebook": "https://www.facebook.com/sistersonskis",
-                "logo": "https://www.sistersonskis.com/wp-content/uploads/2022/01/logo.png",
-                "type": "Skiing"
+                "clubName": "Women’s Progression Sessions",
+                "description": "Technical, freestyle & park coaching for female skiers and snowboarders of all levels in Tignes & Val d'Isere from ISTD qualified coaches Corinne Mayhew, India Cairns and Amy Twigge. Regular sessions throughout the winter season with the Girls Who Ride event in March. Please message us directly with any queries! Further info: https: //linktr.ee/womensprogressionsessions",
+                "phoneNumber": "https://chat.whatsapp.com/LtEpyiWhV5PHYPKPUXXjuT",
+                "instagram": "https://www.instagram.com/womensprogressionsessions/",
+                "email": "",
+                "facebook": "https://www.facebook.com/groups/womensprogressionsessions/",
+                "type": "Snowboarding"
             }
         ]
     },
     {
         "countryName": "France",
-        "cityName": "Val d'Isère",
+        "cityName": "Alpes d'Huez",
         "sportTypes": [
             "Skiing",
-            "Snowboarding",
-            "Climbing"
+            "Snowboarding"
         ],
-        "image": "/images/banskoCover.jpg",
+        "image": "/images/Tignes.jpeg",
         "sportsClub": [
             {
-                "clubName": "Women's Ski Academy",
-                "description": "Women's Ski Academy is a women-only ski school that offers ski lessons and ski clinics for women of all levels in Val d'Isère.",
-                "phoneNumber": "+33 6 33 34 35 36",
-                "email": "info@womensskiacademy.com",
-                "facebook": "https://www.facebook.com/womensskiacademy",
-                "logo": "https://www.womensskiacademy.com/wp-content/uploads/2021/11/logo.png",
+                "clubName": "Girls ski camp",
+                "description": "The idea of the girls ski camp is to offer targeted coaching based on the expectations of women, coached by a woman for women... It is well known that men and women are quite different! And feminine sensitivity is highlighted with Barbara, who has noticed that female skiers are more interested in control and want to gain technical confidence to enjoy skiing. https://www.oisans.com/nos-sejours/girls-ski-camp-chalet-solneige-vaujany/",
+                "phoneNumber": "+33 6 60 27 60 32",
+                "instagram": "https://www.instagram.com/active_ecole_de_ski/",
+                "email": "arbaramaublanc@me.com",
+                "facebook": "https://www.facebook.com/Barbaramaublanc/?ref=ts&fref=ts",
                 "type": "Skiing"
-            },
-            {
-                "clubName": "Women's Ski Academy",
-                "description": "Women's Ski Academy is a women-only ski school that offers ski lessons and ski clinics for women of all levels in Val d'Isère.",
-                "phoneNumber": "+33 6 33 34 35 36",
-                "email": "info@womensskiacademy.com",
-                "facebook": "https://www.facebook.com/womensskiacademy",
-                "logo": "https://www.womensskiacademy.com/wp-content/uploads/2021/11/logo.png",
-                "type": "Skiing"
-            },
-            {
-                "clubName": "Val d'Isère Women's Ski Club",
-                "description": "Val d'Isère Women's Ski Club is a women-only ski club that organizes ski trips and social events for women in Val d'Isère and other ski resorts in France.",
-                "phoneNumber": "+33 6 37 38 39 40",
-                "email": "contact@valdiserewomensskiclub.com",
-                "facebook": "https://www.facebook.com/valdiserewomensskiclub",
-                "logo": "https://www.valdiserewomensskiclub.com/wp-content/uploads/2022/01/logo.png",
-                "type": "Snowboarding"
-            },
-            {
-                "clubName": "Val d'Isère Women's Ski Club",
-                "description": "Val d'Isère Women's Ski Club is a women-only ski club that organizes ski trips and social events for women in Val d'Isère and other ski resorts in France.",
-                "phoneNumber": "+33 6 37 38 39 40",
-                "email": "contact@valdiserewomensskiclub.com",
-                "facebook": "https://www.facebook.com/valdiserewomensskiclub",
-                "logo": "https://www.valdiserewomensskiclub.com/wp-content/uploads/2022/01/logo.png",
-                "type": "Climbing"
             }
         ]
     },
@@ -244,5 +253,182 @@
             }
         ],
         "image": "/images/lostXtrem.png"
+    },
+    {
+        "countryName": "Indonesia",
+        "cityName": "Canggu",
+        "sportTypes": [
+            "Surfing"
+        ],
+        "image": "/images/Bali.jpeg",
+        "sportsClub": [
+            {
+                "clubName": "Blissful Bali Surf Retreat",
+                "description": "At Bliss Sanctuary For Women it’s important to us that you receive a tailored unique surf experience with 1:1 surf lessons and surf program which is all about you. So whether you are a beginner or an experienced female surfer you will be taken out to the best spots for you, catering for your own individual needs at the best time and locations for you to experience your surfing bliss.",
+                "phoneNumber": "+62 878 8755 5500",
+                "instagram": "https://www.instagram.com/blisssanctuaryforwomen/",
+                "email": "info@blissinternational.com",
+                "facebook": "https://www.facebook.com/blisssanctuaryforwomen/",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Goddess retreats Bali",
+                "description": " Surf Goddess Retreats is the perfect ‘surf camp’ for women who want to learn how to surf. Our women’s surfing program allows you to progress at your own pace throughout the week. https://surfgoddessretreats.com/",
+                "phoneNumber": "+62 813 5355 2879",
+                "instagram": "https://www.instagram.com/goddessretreats/",
+                "email": "hello@goddessretreats.com",
+                "facebook": "https://www.facebook.com/theoriginalgoddessretreats/",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Surf Getaways",
+                "description": "Designed by women for women our Bali holiday caters to all levels including Introduction, Beginner and Intermediate .https://www.surfgetaways.com.au/surf-experience-bali-7-nights",
+                "phoneNumber": "+61 (02) 6685 4546",
+                "instagram": "https://www.instagram.com/surfgetaways/",
+                "email": "info@surfgetaways.com.au",
+                "facebook": "https://www.facebook.com/surfgetaways.com.au/",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Ocean Souls Retreat",
+                "description": "Our women’s surf retreat offers 10 hours of hands-on personalised surf lessons with professional coaches. Led by our ultra-talented surf coach, our experienced surf team is dedicated to meeting the requirements of all abilities and levels. We’ll guide you every step of the way whether you’re a first time beginner surfer, intermediate or a seasoned surfer. https://oceansoulretreat.com/retreats/bali-surf-retreat/",
+                "phoneNumber": "+61 407 215 854",
+                "instagram": "https://www.instagram.com/oceansoulretreat/",
+                "email": "hello@oceansoulretreat.com",
+                "facebook": "https://www.facebook.com/oceansoulretreat",
+                "type": "Surfing"
+            }
+        ]
+    },
+    {
+        "countryName": "Indonesia",
+        "cityName": "Uluwatu",
+        "sportTypes": [
+            "Surfing"
+        ],
+        "image": "/images/Uluwatu.jpeg",
+        "sportsClub": [
+            {
+                "clubName": "Women and Waves Society",
+                "description": "Raise your surfing game in the bucket list destination that is Bali. You’ll get heaps of expert coaching on the water, plus local knowledge and waves for all abilities. Away from the surf, our two Adventure Days are packed with everything from snorkelling at Nusa Lembongan to meeting cheeky macaques and visiting temples. Awesome surfing, culture and adventure… our Bali trip has it all. https://womenandwavessociety.com/destinations/bali/",
+                "email": "Info@womenandwavessociety.com",
+                "phoneNumber": "+44 7544 094518",
+                "facebook": "https://www.facebook.com/womenandwaves/",
+                "instagram": "https://www.instagram.com/womenandwaves/",
+                "type": "Surfing"
+            }
+        ]
+    },
+    {
+        "countryName": "Portugal",
+        "cityName": "Lisbon",
+        "sportTypes": [
+            "Surfing"
+        ],
+        "image": "/images/Lisbon.jpeg",
+        "sportsClub": [
+            {
+                "clubName": "Wave Sisters",
+                "description": "You want to learn to surf and be part of a group of great women? Then come to WaveSisters and feel how surfing and yoga can transform your body, mind and soul. Spend a week with us by the sea and experience how the community of women and sport can empower you. https://wavesisters.com/",
+                "email": "INFO@WAVESISTERS.COM",
+                "phoneNumber": "+33 7 80 07 89 72",
+                "facebook": "https://www.facebook.com/wavesisters/",
+                "instagram": "https://www.instagram.com/wavesisters_surfcamps/?hl=de",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Lisbon Surf Camp",
+                "description": "From Lisbon Surf Camp staff to Surf Teachers – From Girls to Girls. We want to give you the best experiences of our surfing women of Portugal and want you to learn from their experiences! Our amazing Lucinda will share all of her stories with you! https://www.lisbonsurfcamp.com/girl-surf-week",
+                "email": "info@lisbonsurfcamp.com",
+                "phoneNumber": "+351 911 110 889",
+                "facebook": "https://www.facebook.com/lxsurfcamp/",
+                "instagram": "https://www.instagram.com/lisbonsurfcamp/",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Chicks on Waves",
+                "description": "There is nothing better than surfing with like-minded women! Join the world of Chicks On Waves and learn to surf or improve your surfing skills in Portugal with us! https://chicksonwaves.com/",
+                "email": "info@chicksonwaves.com",
+                "phoneNumber": "+351 967 580 530",
+                "facebook": "https://www.facebook.com/people/ChicksOnWaves/100063613090491/?fref=ts",
+                "instagram": "https://www.instagram.com/chicksonwaves/",
+                "type": "Surfing"
+            }
+        ]
+    },
+    {
+        "countryName": "Portugal",
+        "cityName": "Algarve",
+        "sportTypes": [
+            "Surfing"
+        ],
+        "image": "/images/Algarve.jpeg",
+        "sportsClub": [
+            {
+                "clubName": "Chicks on Waves",
+                "description": "There is nothing better than surfing with like-minded women! Join the world of Chicks On Waves and learn to surf or improve your surfing skills in Portugal with us! https://chicksonwaves.com/",
+                "email": "info@chicksonwaves.com",
+                "phoneNumber": "+351 967 580 530",
+                "facebook": "https://www.facebook.com/people/ChicksOnWaves/100063613090491/?fref=ts",
+                "instagram": "https://www.instagram.com/chicksonwaves/",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Women and Waves Society",
+                "description": "Keen to step up your surfing and experience the best that Portugal has to offer? With consistent waves, gorgeous weather, epic food and low costs, our all-female camp in the sun-kissed Algarve is just the ticket. https://womenandwavessociety.com/destinations/portugal/",
+                "email": "Info@womenandwavessociety.com",
+                "phoneNumber": "+44 7544 094518",
+                "facebook": "https://www.facebook.com/womenandwaves/",
+                "instagram": "https://www.instagram.com/womenandwaves/",
+                "type": "Surfing"
+            }
+        ]
+    },
+    {
+        "countryName": "Spain",
+        "cityName": "Canary Islands",
+        "sportTypes": [
+            "Surfing"
+        ],
+        "image": "/images/Canary.jpeg",
+        "sportsClub": [
+            {
+                "clubName": "Wave Sisters",
+                "description": "You want to learn to surf and be part of a group of great women? Then come to WaveSisters and feel how surfing and yoga can transform your body, mind and soul. Spend a week with us by the sea and experience how the community of women and sport can empower you. https://wavesisters.com/",
+                "email": "INFO@WAVESISTERS.COM",
+                "phoneNumber": "+33 7 80 07 89 72",
+                "facebook": "https://www.facebook.com/wavesisters/",
+                "instagram": "https://www.instagram.com/wavesisters_surfcamps/?hl=de",
+                "type": "Surfing"
+            }
+        ]
+    },
+    {
+        "countryName": "Costa Rica",
+        "cityName": "Santa Teresa",
+        "sportTypes": [
+            "Surfing"
+        ],
+        "image": "/images/SantaTeresa.jpeg",
+        "sportsClub": [
+            {
+                "clubName": "Wave Sisters",
+                "description": "You want to learn to surf and be part of a group of great women? Then come to WaveSisters and feel how surfing and yoga can transform your body, mind and soul. Spend a week with us by the sea and experience how the community of women and sport can empower you. https://wavesisters.com/",
+                "email": "INFO@WAVESISTERS.COM",
+                "phoneNumber": "+33 7 80 07 89 72",
+                "facebook": "https://www.facebook.com/wavesisters/",
+                "instagram": "https://www.instagram.com/wavesisters_surfcamps/?hl=de",
+                "type": "Surfing"
+            },
+            {
+                "clubName": "Women and Waves Society",
+                "description": "Perfect peeling waves, bath-warm water, beautiful beaches and tropical wildlife… What more could you ask for on this surfing holiday of a lifetime? This trip is suitable for beginners, Progressors + Intermediate surfers, Costa Rica has waves for everyone. https://womenandwavessociety.com/destinations/costa-rica/",
+                "email": "Info@womenandwavessociety.com",
+                "phoneNumber": "+44 7544 094518",
+                "facebook": "https://www.facebook.com/womenandwaves/",
+                "instagram": "https://www.instagram.com/womenandwaves/",
+                "type": "Surfing"
+            }
+        ]
     }
 ]
