@@ -10,9 +10,9 @@ export const DescriptionBox = ({ sportClub }: any) => {
 
   return (
     <Box className="description__container">
-      <Grid className="description__full" container spacing={3}>
-        <Grid item xs={2}>
-          <Stack spacing={1} className="description__title">
+      <Grid wrap="nowrap" container spacing={2}>
+        <Grid xs={2}>
+          <Stack alignItems="center" spacing={2}>
             <h3 className="description__title">{sportClub.clubName}</h3>
             <img
               src={"/images/" + `${sportClub.type}` + ".png"}
@@ -23,8 +23,8 @@ export const DescriptionBox = ({ sportClub }: any) => {
             />
           </Stack>
         </Grid>
-        <Grid className="description__info" item xs={10}>
-          <Stack>
+        <Grid item xs={9}>
+          <Stack spacing={3}>
             <Grid className="description__icons" container spacing={2}>
               {showIcon ? (
                 <Grid item xs={2}>
@@ -113,7 +113,7 @@ export const DescriptionBox = ({ sportClub }: any) => {
                 )}
               </Grid>
             </Grid>
-            <Typography className="description__text" variant="body2" mt={2}>
+            <Typography className="description__text" variant="body2">
               {sportClub.description}
             </Typography>
           </Stack>

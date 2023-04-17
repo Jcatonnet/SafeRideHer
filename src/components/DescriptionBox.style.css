@@ -14,8 +14,10 @@
 
 .description__title {
     margin-top: 0;
+    display: block;
     max-height: 10%;
     text-align: center;
+    align-items: center;
 }
 
 .description__info {
@@ -39,17 +41,14 @@
   
   }
 
-.description__title {
-    display: flex;
-    align-items: center;
+.description__text {
+    text-align: justify;
 }
-
-
 
 @media (max-width: 767px) {
     .description__text {
     
         overflow-y: auto;
-        max-height: 60%;
+        max-height: 100px;
     }
 }
