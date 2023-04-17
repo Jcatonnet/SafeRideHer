@@ -32,16 +32,16 @@ export const LandingPage = () => {
               with like-minded individuals to pursue their passions in a safe
               and supportive environment. The male-dominated nature of many
               extreme sports can be a major barrier for women, so we created a
-              community-driven platform to empower women and promote gender
-              equality in extreme sports !
+              community-driven platform to create a safer place and promote
+              gender equality in extreme sports !
             </h3>
 
             <h3>
               Join us on this journey to break down barriers and create more
               opportunities for women to pursue their passions in extreme
               sports. We believe that by supporting each other, we can achieve
-              our dreams and inspire future generations of women in extreme
-              sports. Let's get started!
+              our dreams and practice what we love in a safe place. Let's get
+              started!
             </h3>
             <h3>
               This platform is based on community insights. If you know a great
