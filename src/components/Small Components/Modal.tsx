@@ -33,8 +33,10 @@ const alert__box = {
   position: "absolute",
   left: "50%",
   transform: "translateX(-50%)",
-  zIndex: "10",
   top: 20,
+  "@media (max-width: 767px)": {
+    width: "100%",
+  },
 };
 
 export const SubmissionModal = () => {

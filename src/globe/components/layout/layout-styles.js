@@ -48,7 +48,7 @@ export const useStyles = makeStyles(
       height: "100%",
       padding: spacing(8),
       paddingLeft: spacing(4),
-      zIndex: "1",
+      zIndex: "12",
       color: "white",
       // overflowY: "scroll",
       overflowX: "hidden",
