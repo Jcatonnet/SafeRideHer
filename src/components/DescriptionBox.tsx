@@ -1,6 +1,7 @@
 import { Box, Grid } from "@material-ui/core";
 import { Stack } from "@mui/material";
 import { useState } from "react";
+import Typography from "@mui/material/Typography";
 import "./DescriptionBox.style.css";
 
 export const DescriptionBox = ({ sportClub }: any) => {
@@ -112,7 +113,9 @@ export const DescriptionBox = ({ sportClub }: any) => {
                 )}
               </Grid>
             </Grid>
-            <p>{sportClub.description}</p>
+            <Typography className="description__text" variant="body2" mt={2}>
+              {sportClub.description}
+            </Typography>
           </Stack>
         </Grid>
       </Grid>
