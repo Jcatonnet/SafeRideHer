@@ -10,6 +10,7 @@ import { useTheme } from "./useTheme";
 import { getCountryById, getRandomCountry } from "../../utils";
 import { LandingPage } from "../LandingPage/LandingPage";
 import { SubmissionModal } from "../../../components/Small Components/Modal";
+import { Typography } from "@mui/material";
 
 export const GlobePage = () => {
   const [theme, toggleTheme] = useTheme();

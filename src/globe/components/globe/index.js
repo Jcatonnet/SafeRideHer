@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useMemo } from "react";
 import { geoPath, geoOrthographic, select, drag, zoom, geoContains } from "d3";
-import { Tooltip } from "@material-ui/core";
+import { Tooltip, Typography } from "@material-ui/core";
 import clsx from "clsx";
 
 import { useStyles } from "./globe-styles";
@@ -311,6 +311,7 @@ export const Globe = ({
           ))}
         </g>
       </svg>
+
       <Widgets show={showWidgets}></Widgets>
     </div>
   );
