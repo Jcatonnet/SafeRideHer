@@ -93,7 +93,7 @@ export const SubmissionModal = () => {
           color="secondary"
           onClick={() => setModalOpen(true)}
         >
-          I want to reference a club
+          I want to refer a club
         </Button>
         <Modal
           aria-labelledby="transition-modal-title"
