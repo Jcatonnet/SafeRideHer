@@ -289,6 +289,9 @@ export const Globe = ({
 
   return (
     <div className={classes.container}>
+      <Typography variant="body2" align="center" className={classes.helper}>
+        Drag the globe, zoom and click on your desired country
+      </Typography>
       <svg ref={svgRef} className={classes.svg} width={width} height={height}>
         <circle
           className={classes.circle}
@@ -311,7 +314,6 @@ export const Globe = ({
           ))}
         </g>
       </svg>
-
       <Widgets show={showWidgets}></Widgets>
     </div>
   );

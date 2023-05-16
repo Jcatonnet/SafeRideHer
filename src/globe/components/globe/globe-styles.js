@@ -4,12 +4,15 @@ export const useStyles = makeStyles(
   ({
     palette: { primary, background, getContrastText },
     transitions: { create, duration },
-    shadows,
-    shape,
   }) => ({
     container: {
       position: "relative",
       height: "100%",
+      marginTop: "10%",
+    },
+    helper: {
+      color: "white",
+      marginTop: "10%",
     },
     svg: {
       display: "block",

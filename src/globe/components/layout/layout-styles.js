@@ -61,8 +61,5 @@ export const useStyles = makeStyles(
         paddingTop: 0,
       },
     },
-    footer: {
-      gridColumn: "1 / span 2",
-    },
   })
 );

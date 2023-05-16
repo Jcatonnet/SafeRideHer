@@ -1,12 +1,11 @@
-import "./App.css";
-import { Travel } from "./pages/travel";
+import { GlobePage } from "./globe/components/globePage/GlobePage";
 import { ParticlesBackground } from "./globe/components/layout/ParticlesBackground";
 
 export function App() {
   return (
     <>
       <ParticlesBackground />
-      <Travel />
+      <GlobePage />
     </>
   );
 }
