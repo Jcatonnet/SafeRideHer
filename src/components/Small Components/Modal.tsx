@@ -43,8 +43,10 @@ export const SubmissionModal = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [successAlertOpen, setSuccessAlertOpen] = useState(false);
   const [erroAlertOpen, setErrorAlertOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = (data: any) => {
+    setIsLoading(true);
     send("service_dovxsdo", "template_6pr1rw4", data, "KJrYV_D7TUeK9DdQH")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
@@ -60,6 +62,9 @@ export const SubmissionModal = () => {
           setErrorAlertOpen(false);
         }, 3000);
         console.log("FAILED...", err);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
 
@@ -119,7 +124,11 @@ export const SubmissionModal = () => {
                 The provided info will be reviewed by our team and if it meets
                 Feminlist standards, the club will be referenced on the platform
               </Typography>
-              <SubmissionForm onSubmit={handleSubmit} onCancel={onCancel} />
+              <SubmissionForm
+                onSubmit={handleSubmit}
+                onCancel={onCancel}
+                isLoading={isLoading}
+              />
             </Box>
           </Fade>
         </Modal>
