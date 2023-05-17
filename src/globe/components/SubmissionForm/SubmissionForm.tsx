@@ -75,12 +75,12 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
           error={Boolean(errors.clubName)}
           helperText={errors.clubName ? String(errors.clubName?.message) : ""}
         />
-        <span>Country *</span>
+        <span className="field__name">Country *</span>
         <Select
           className={
             errors.countryName
-              ? "submission__country__error"
-              : "submission__country"
+              ? "submission__select__error"
+              : "submission__select"
           }
           styles={{
             control: (baseStyles, { isFocused }) => ({
@@ -88,6 +88,7 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
               borderColor: errors.countryName ? "red" : baseStyles.borderColor,
               marginBottom: " 20px",
               minWidth: "100%",
+              height: "0px",
               borderRadius: "8px",
               boxShadow: isFocused
                 ? `0 0 0 1px ${errors.countryName ? "red" : "#000"}`
@@ -117,7 +118,7 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
           <FormHelperText error>Please enter a country</FormHelperText>
         )}
 
-        <span>City *</span>
+        <span className="field__name">City *</span>
         <TextField
           variant="outlined"
           className="subimissionFields__control input__same-height"
@@ -127,21 +128,12 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
           helperText={errors.cityName ? String(errors.cityName?.message) : ""}
         />
 
-        {/* <span>Sport(s) type(s) *</span>
-        <TextField
-          variant="outlined"
-          className="subimissionFields__control input__same-height"
-          required
-          {...register("sportType", { required: true })}
-          error={Boolean(errors.sportType)}
-          helperText={errors.sportType ? String(errors.sportType?.message) : ""}
-        /> */}
-
+        <span className="field__name">Sport(s) type(s) *</span>
         <CreatableSelect
           className={
             errors.sportType
-              ? "submission__country__error"
-              : "submission__country"
+              ? "submission__select__error"
+              : "submission__select"
           }
           styles={{
             control: (baseStyles, { isFocused }) => ({
@@ -173,25 +165,28 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
             (option) => option.value === watch("sportType")
           )}
         />
-        <span>Facebook</span>
+        {errors.sportType && (
+          <FormHelperText error>Please select a sport type</FormHelperText>
+        )}
+        <span className="field__name">Facebook</span>
         <TextField
           variant="outlined"
           className="subimissionFields__control input__same-height"
           {...register("facebook")}
         />
-        <span>Instagram</span>
+        <span className="field__name">Instagram</span>
         <TextField
           variant="outlined"
           className="subimissionFields__control input__same-height"
           {...register("instagram")}
         />
-        <span>Whatsapp</span>
+        <span className="field__name">Whatsapp</span>
         <TextField
           variant="outlined"
           className="subimissionFields__control input__same-height"
           {...register("whatsApp")}
         />
-        <span>Note</span>
+        <span className="field__name">Note</span>
         <TextField
           variant="outlined"
           multiline

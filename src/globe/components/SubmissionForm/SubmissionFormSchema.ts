@@ -10,7 +10,7 @@ export const submissionFormFieldsSchema = Joi.object({
   cityName: Joi.string().required().messages({
     "string.empty": "Please enter a city",
   }),
-  sportType: Joi.string().required().messages({
+  sportType: Joi.required().messages({
     "string.empty": "Please enter at least 1 sport type",
   }),
   facebook: Joi.string().allow(""),

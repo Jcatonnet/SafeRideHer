@@ -7,25 +7,35 @@
     width: 70%;
     margin-top: 20px
 }
+.field__name{
+    margin-top: 20px;
+}
 
 .subimissionFields__control {
     width: 100%;
-    margin-bottom: 20px !important;
 }
 
 .input__same-height input {
     height: 0px; /* Adjust the height value as needed */
   }
 
-.submission__country {
+.submission__select {
     width: 100%;
     border-radius: 8px;
+    height: 40px;
+}
+
+.submission__select__error {
+    width: 100%;
+    border-radius: 8px;
+    height: 40px;
 }
 
 .submissionForm__CTA {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin-top: 20px
 }
 
 .button__submit {

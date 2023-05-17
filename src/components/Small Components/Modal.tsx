@@ -37,6 +37,7 @@ const alert__box = {
   "@media (max-width: 767px)": {
     width: "100%",
   },
+  zIndex: 1,
 };
 
 export const SubmissionModal = () => {
