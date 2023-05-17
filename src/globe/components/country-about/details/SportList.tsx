@@ -3,6 +3,7 @@ import { Stack } from "@mui/material";
 import Bounce from "react-reveal/Bounce";
 import { HorizontalLineGray } from "../../../../components/Small Components/HorizontalLineGray";
 import { HorizontalLineGreen } from "../../../../components/Small Components/HorizontalLineGreen";
+import { listedSports } from "../../../../utils/sportsType";
 import { SportsEnum, SportsTypes } from "../../../utils/types";
 import "./details.styles.css";
 
@@ -11,15 +12,6 @@ type Props = {
   infoTitle?: string;
   handleClick?: (event: any) => void;
 };
-
-const listedSports: SportsTypes[] = [
-  SportsEnum.SPORT_SKIING,
-  SportsEnum.SPORT_SNOWBOARDING,
-  SportsEnum.SPORT_SURFING,
-  SportsEnum.SPORT_SKATEBOARDING,
-  SportsEnum.SPORT_CLIMBING,
-  SportsEnum.SPORT_KITE_SURFING,
-];
 
 export const SportTypesIconMapping: Record<string, string> = {
   Snowboarding: "/images/Snowboarding.png",

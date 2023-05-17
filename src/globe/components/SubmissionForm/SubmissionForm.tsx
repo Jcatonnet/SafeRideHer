@@ -6,9 +6,10 @@ import { submissionFormFieldsSchema } from "./SubmissionFormSchema";
 import { useMemo } from "react";
 import countries from "../../../utils/countries";
 import Select from "react-select";
+import CreatableSelect from "react-select/creatable";
 import LoadingButton from "@mui/lab/LoadingButton";
 import SendIcon from "@mui/icons-material/Send";
-import { height } from "@mui/system";
+import { sportsTypesWthIcon } from "../../../utils/sportsType";
 
 export type SubmissionFormFields = {
   clubName: string;
@@ -30,6 +31,22 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
       })),
     []
   );
+
+  const sportTypeOptions = useMemo(
+    () =>
+      sportsTypesWthIcon.map(({ label, value, icon }) => ({
+        label: (
+          <div className="option-label">
+            <img src={icon} alt={label} height="20" width="20" />
+            <span>{label}</span>
+          </div>
+        ),
+        value,
+        icon,
+      })),
+    []
+  );
+
   const {
     register,
     handleSubmit,
@@ -109,7 +126,8 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
           error={Boolean(errors.cityName)}
           helperText={errors.cityName ? String(errors.cityName?.message) : ""}
         />
-        <span>Sport(s) type(s) *</span>
+
+        {/* <span>Sport(s) type(s) *</span>
         <TextField
           variant="outlined"
           className="subimissionFields__control input__same-height"
@@ -117,6 +135,43 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
           {...register("sportType", { required: true })}
           error={Boolean(errors.sportType)}
           helperText={errors.sportType ? String(errors.sportType?.message) : ""}
+        /> */}
+
+        <CreatableSelect
+          className={
+            errors.sportType
+              ? "submission__country__error"
+              : "submission__country"
+          }
+          styles={{
+            control: (baseStyles, { isFocused }) => ({
+              ...baseStyles,
+              borderColor: errors.sportType ? "red" : baseStyles.borderColor,
+              marginBottom: " 20px",
+              minWidth: "100%",
+              borderRadius: "8px",
+              boxShadow: isFocused
+                ? `0 0 0 1px ${errors.sportType ? "red" : "#000"}`
+                : baseStyles.boxShadow,
+              "&:hover": {
+                borderColor: errors.sportType ? "red" : baseStyles.borderColor,
+              },
+            }),
+          }}
+          id="sportType"
+          required
+          isSearchable
+          {...register("sportType", { required: true })}
+          options={sportTypeOptions}
+          getOptionLabel={(option) => option.label}
+          getOptionValue={(option) => option.value}
+          onChange={(selectedOption) => {
+            setValue("sportType", selectedOption?.label);
+            clearErrors("sportType");
+          }}
+          value={sportsTypesWthIcon.find(
+            (option) => option.value === watch("sportType")
+          )}
         />
         <span>Facebook</span>
         <TextField

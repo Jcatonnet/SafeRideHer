@@ -31,3 +31,12 @@
 .button__submit {
     background-color: "#c036d8";
 }
+
+.option-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .option-label img {
+    margin-right: 5px;
+  }
