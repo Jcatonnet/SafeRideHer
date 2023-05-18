@@ -5,7 +5,10 @@ import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { SubmissionForm } from "../../globe/components/SubmissionForm/SubmissionForm";
+import {
+  SubmissionForm,
+  SubmissionFormFields,
+} from "../../globe/components/SubmissionForm/SubmissionForm";
 import { send } from "emailjs-com";
 import { Alert, AlertTitle } from "@mui/material";
 import { useState } from "react";
@@ -46,7 +49,7 @@ export const SubmissionModal = () => {
   const [erroAlertOpen, setErrorAlertOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (data: any) => {
+  const handleSubmit = (data: SubmissionFormFields) => {
     setIsLoading(true);
     send("service_dovxsdo", "template_6pr1rw4", data, "KJrYV_D7TUeK9DdQH")
       .then((response) => {
@@ -62,6 +65,7 @@ export const SubmissionModal = () => {
         setTimeout(() => {
           setErrorAlertOpen(false);
         }, 3000);
+        setIsLoading(false);
         console.log("FAILED...", err);
       })
       .finally(() => {

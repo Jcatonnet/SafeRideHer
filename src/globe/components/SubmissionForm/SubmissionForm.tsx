@@ -158,7 +158,7 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
           getOptionLabel={(option) => option.label}
           getOptionValue={(option) => option.value}
           onChange={(selectedOption) => {
-            setValue("sportType", selectedOption?.label);
+            setValue("sportType", selectedOption?.value);
             clearErrors("sportType");
           }}
           value={sportsTypesWthIcon.find(
