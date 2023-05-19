@@ -1,4 +1,4 @@
-import { countries as rawCountries, Country } from "countries-list";
+import { countries as rawCountries } from "countries-list";
 import { CountriesListRaw } from "../commons/types/countries";
 
 export const formatCountries = (countriesList: CountriesListRaw) => {

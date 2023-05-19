@@ -1,4 +1,3 @@
-import { string } from "joi";
 import { SportsEnum, SportsTypes } from "../globe/utils/types";
 
 export const listedSports: SportsTypes[] = [

@@ -1,4 +1,3 @@
-import * as React from "react";
 import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -46,7 +45,7 @@ const alert__box = {
 export const SubmissionModal = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [successAlertOpen, setSuccessAlertOpen] = useState(false);
-  const [erroAlertOpen, setErrorAlertOpen] = useState(false);
+  const [errorAlertOpen, setErrorAlertOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = (data: SubmissionFormFields) => {
@@ -87,7 +86,7 @@ export const SubmissionModal = () => {
             <strong>We will review it in the coming day</strong>
           </Alert>
         )}
-        {erroAlertOpen && (
+        {errorAlertOpen && (
           <Alert severity="error">
             <AlertTitle>Error</AlertTitle>
             Your submission failed -
