@@ -31,16 +31,10 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
       })),
     []
   );
-
   const sportTypeOptions = useMemo(
     () =>
       sportsTypesWthIcon.map(({ label, value, icon }) => ({
-        label: (
-          <div className="option-label">
-            <img src={icon} alt={label} height="20" width="20" />
-            <span>{label}</span>
-          </div>
-        ),
+        label,
         value,
         icon,
       })),
@@ -57,7 +51,6 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
   } = useForm({
     resolver: joiResolver(submissionFormFieldsSchema),
   });
-
   return (
     <form
       className="form__general"
@@ -128,7 +121,7 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
           helperText={errors.cityName ? String(errors.cityName?.message) : ""}
         />
 
-        <span className="field__name">Sport(s) type(s) *</span>
+        <span className="field__name">Sport type *</span>
         <CreatableSelect
           className={
             errors.sportType
@@ -155,10 +148,21 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
           isSearchable
           {...register("sportType", { required: true })}
           options={sportTypeOptions}
-          getOptionLabel={(option) => option.label}
-          getOptionValue={(option) => option.value}
+          // getOptionLabel={(option) => option.label}
+          formatOptionLabel={(option) => (
+            <div className="option-label">
+              <img
+                src={option.icon}
+                alt={option.label}
+                height="20"
+                width="20"
+              />
+              <span>{option.label}</span>
+            </div>
+          )}
+          getOptionValue={(option) => option.label}
           onChange={(selectedOption) => {
-            setValue("sportType", selectedOption?.value);
+            setValue("sportType", selectedOption?.label);
             clearErrors("sportType");
           }}
           value={sportsTypesWthIcon.find(
@@ -205,7 +209,6 @@ export const SubmissionForm = ({ onSubmit, onCancel, isLoading }: any) => {
             loadingPosition="end"
             style={{ backgroundColor: "#9c27b0" }}
             type="submit"
-            // disabled={isLoading}
           >
             Submit
           </LoadingButton>

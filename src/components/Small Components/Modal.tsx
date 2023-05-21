@@ -9,8 +9,8 @@ import {
   SubmissionFormFields,
 } from "../../globe/components/SubmissionForm/SubmissionForm";
 import { send } from "emailjs-com";
-import { Alert, AlertTitle } from "@mui/material";
 import { useState } from "react";
+import { SubmissionAlerts } from "./SubmissionAlerts";
 
 const style = {
   position: "absolute" as "absolute",
@@ -79,22 +79,10 @@ export const SubmissionModal = () => {
   return (
     <Box>
       <Box sx={alert__box}>
-        {successAlertOpen && (
-          <Alert severity="success">
-            <AlertTitle>Success</AlertTitle>
-            You have successfully submitted a club —
-            <strong>We will review it in the coming day</strong>
-          </Alert>
-        )}
-        {errorAlertOpen && (
-          <Alert severity="error">
-            <AlertTitle>Error</AlertTitle>
-            Your submission failed -
-            <strong>
-              Please check your internet connection or retry in few minutes
-            </strong>
-          </Alert>
-        )}
+        <SubmissionAlerts
+          successOpen={successAlertOpen}
+          errorOpen={errorAlertOpen}
+        />
       </Box>
       <Box>
         <Button
