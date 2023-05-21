@@ -26,7 +26,7 @@ export const LandingPage = () => {
       ) : (
         <>
           <Fade>
-            <h1 style={{ color: "#c036d8" }}> Welcome to Feminlist ! </h1>
+            <h1 style={{ color: "#c036d8" }}> Welcome to SafeRideHer ! </h1>
             <h3>
               Here women can find women-only extreme sport clubs and connect
               with like-minded individuals to pursue their passions in a safe

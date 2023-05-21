@@ -114,7 +114,8 @@ export const SubmissionModal = () => {
               </Typography>
               <Typography id="transition-modal-title" variant="body2">
                 The provided info will be reviewed by our team and if it meets
-                Feminlist standards, the club will be referenced on the platform
+                SafeRideHer standards, the club will be referenced on the
+                platform
               </Typography>
               <SubmissionForm
                 onSubmit={handleSubmit}
