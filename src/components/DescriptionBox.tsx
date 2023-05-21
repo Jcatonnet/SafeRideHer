@@ -6,6 +6,8 @@ import "./DescriptionBox.style.css";
 
 export const DescriptionBox = ({ sportClub }: any) => {
   const [showIcon, setShowIcon] = useState(true);
+  const isMobile = window.innerWidth <= 767;
+
   const handleIconClick = () => setShowIcon(!showIcon);
 
   return (
@@ -28,14 +30,35 @@ export const DescriptionBox = ({ sportClub }: any) => {
             <Grid className="description__icons" container spacing={2}>
               {showIcon ? (
                 <Grid item xs={2}>
-                  <img
-                    src="/images/whatsapp.png"
-                    alt="logo"
-                    width="30"
-                    border-radius="50%"
-                    margin-left="10px"
-                    onClick={handleIconClick}
-                  />
+                  {isMobile ? (
+                    <a
+                      target="_blank"
+                      href={
+                        "https://wa.me/" +
+                        `${sportClub.phoneNumber.substring(
+                          sportClub.phoneNumber.indexOf(" ") + 1
+                        )}`
+                      }
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="/images/whatsapp.png"
+                        alt="logo"
+                        width="30"
+                        border-radius="50%"
+                        margin-left="10px"
+                      />
+                    </a>
+                  ) : (
+                    <img
+                      src="/images/whatsapp.png"
+                      alt="logo"
+                      width="30"
+                      border-radius="50%"
+                      margin-left="10px"
+                      onClick={handleIconClick}
+                    />
+                  )}
                 </Grid>
               ) : (
                 <Grid item xs={3}>
@@ -70,7 +93,7 @@ export const DescriptionBox = ({ sportClub }: any) => {
               </Grid>
               <Grid item xs={2}>
                 {sportClub.facebook ? (
-                  <a target="_blank" href={sportClub.facebook}>
+                  <a target="_blank" href={sportClub.facebook} rel="noreferrer">
                     <img
                       src="/images/facebook.png"
                       alt="logo"
@@ -92,7 +115,11 @@ export const DescriptionBox = ({ sportClub }: any) => {
               </Grid>
               <Grid item xs={2}>
                 {sportClub.instagram ? (
-                  <a target="_blank" href={sportClub.instagram}>
+                  <a
+                    target="_blank"
+                    href={sportClub.instagram}
+                    rel="noreferrer"
+                  >
                     <img
                       src="/images/instagram.png"
                       alt="logo"
